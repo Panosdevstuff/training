@@ -141,9 +141,9 @@
           "x": 500,
           "y": 1170
         },
-        "workflow": "WWf38b96169a345444f59930c26b047631",
-        "channel": "TC7239cd75c1565ace1c1220ac56069c59",
-        "attributes": "{\"name\":\"bob\"}"
+        "workflow": "WW6a1bfff6a30c0b9912bd68491c02277d",
+        "channel": "TC23326d47234364fc235140472f547f6e",
+        "attributes": "{ \"name\": \"{{widgets.getDetails.parsed.name}}\" }"
       }
     },
     {
@@ -165,9 +165,9 @@
           "x": 920,
           "y": 1150
         },
-        "workflow": "WWb2995b0e748262fc6af1066886150b32",
-        "channel": "TC7239cd75c1565ace1c1220ac56069c59",
-        "attributes": "{\"name\":\"bob\"}"
+        "workflow": "WW6a1bfff6a30c0b9912bd68491c02277d",
+        "channel": "TC23326d47234364fc235140472f547f6e",
+        "attributes": "{ \"name\": \"{{widgets.getDetails.parsed.name}}\" }"
       }
     },
     {
@@ -201,19 +201,20 @@
         }
       ],
       "properties": {
-        "service_sid": "ZSb039fa9ad3187731220290ad6c2fc548",
-        "environment_sid": "",
+        "service_sid": "ZS0d0ad721c6d24a906f573b31dd271a96",
+        "environment_sid": "ZE52f67b8df892d6a4fe1a57496f4c6871",
         "offset": {
           "x": 150,
           "y": -120
         },
-        "function_sid": "",
+        "function_sid": "ZH22fcc124bf8ac9c66dad2c3d97c0fefe",
         "parameters": [
           {
             "value": "{{trigger.call.From}}",
             "key": "from"
           }
-        ]
+        ],
+        "url": "https://dummydatadip-1967.twil.io/retreview"
       }
     }
   ],
